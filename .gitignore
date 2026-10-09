@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+# Папки скомпилированного кода (артефакты сборки)
+[Bb]in/
+[Oo]bj/
+
+# Файлы пользовательских настроек и кэша .NET
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Пакеты NuGet
+*.nupkg
+/packages/
+!/packages/repositories.config
+project.lock.json
+project.fragment.lock.json
+
+# Логи и отчеты о падениях
+*.log
+*.crash
